@@ -3,6 +3,8 @@
   "license": "MIT",
   "type": "project",
   "description": "Simple php framework for making an API",
+  "version": "1.0.2",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "akbaraditamasp",
