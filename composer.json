@@ -1,6 +1,8 @@
 {
   "name": "akbaraditamasp/sailing-php",
   "license": "MIT",
+  "type": "project",
+  "description": "Simple php framework for making an API",
   "authors": [
     {
       "name": "akbaraditamasp",
