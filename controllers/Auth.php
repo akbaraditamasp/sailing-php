@@ -4,7 +4,6 @@ namespace Controller;
 use App\Response;
 use App\Util;
 use App\Validation;
-use function App\JSON;
 use \Firebase\JWT\JWT;
 
 class Auth
