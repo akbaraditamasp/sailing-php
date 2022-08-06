@@ -8,7 +8,10 @@ require_once __DIR__ . "/../vendor/autoload.php";
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../");
 $dotenv->load();
 
-$_POST = json_decode(file_get_contents('php://input'), true);
+if (!count($_POST)) {
+    $post = json_decode(file_get_contents('php://input'), true);
+    $_POST = $post ? $post : [];
+}
 
 $router = new Router();
 
